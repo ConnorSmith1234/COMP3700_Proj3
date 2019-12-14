@@ -1,0 +1,33 @@
+User stories:
+1. As a user, I want to add a new product into the system.
+2. As a user, I want to add a new customer into the system.
+3. As a user, I want to add a purchase from a customer into the system.
+
+Use Cases:
+As a user, I want to add a new product into the system.
+1. Login to system
+2. Select "Add new Product"
+3. Enter product information
+4. Select "Add"
+5. Product is added to the system
+OR
+5. Product already exists in the system (exception)
+
+As a user, I want to add a new customer into the system.
+1. Login to system
+2. Select "Add new Customer"
+3. Enter customer information
+4. Select "Add"
+5. Customer is added to the system
+OR
+5. Customer already exists in the system (exception)
+
+As a user, I want to add a purchase from a customer into the system.
+1. Login to system
+2. Select "Add new Purchase"
+3. Enter purchase information
+4. Tax and Total are calculated
+5. Select "Add"
+6. Purchase is added to the system
+OR
+6. Product or Customer is invalid (exception)
